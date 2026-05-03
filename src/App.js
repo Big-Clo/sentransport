@@ -3,6 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Statistique from './Statistique';
 import LigneBus from './LigneBus';
+import ListeLignes from './ListeLignes';
 
 function App() {
   const lignes = [
