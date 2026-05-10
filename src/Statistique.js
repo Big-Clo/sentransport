@@ -1,9 +1,11 @@
 import './Statistique.css';
 
-function Statistique() {
+function Statistique({ lignes }) {
+  const totalLignes = lignes.length;
+
   return (
     <div className="statistique">
-      <span className="statistique-chiffre">10</span>
+      <span className="statistique-chiffre">{totalLignes}</span>
       <span className="statistique-libelle">lignes</span>
     </div>
   );
