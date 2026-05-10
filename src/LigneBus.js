@@ -1,10 +1,15 @@
 import React from 'react';
 import './LigneBus.css';
 
-function LigneBus({ numero, depart, arrivee, arrets }) {
+function LigneBus({ numero, depart, arrivee, arrets, couleur }) {
   return (
     <div className="ligne-bus">
-      <div className="ligne-numero">{numero}</div>
+      <div
+        className="ligne-numero"
+        style={{ backgroundColor: couleur || '#0a6e31' }}
+      >
+        {numero}
+      </div>
       <div className="ligne-info">
         <div className="ligne-trajet">
           {depart} → {arrivee}

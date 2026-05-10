@@ -1,0 +1,17 @@
+.stat-reseau {
+  background-color: #eaf7f0;
+  border-left: 4px solid #0a6e31;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+.stat-reseau h3 {
+  margin: 0 0 8px;
+  color: #0a6e31;
+}
+
+.stat-reseau p {
+  margin: 4px 0;
+  color: #2c3e50;
+}
